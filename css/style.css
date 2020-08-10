@@ -1,0 +1,64 @@
+body{ 
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue 
+}
+.navbar{ 
+    background-color: 
+    #343a40;
+}
+
+.nav-item:active {
+ border-left: 3px solid #444;
+}
+.carousel-item { 
+ height: 750px !important;
+}
+
+.carousel-image-1{
+    background: url('../img/pexels-photo-250154.jpeg');
+    background-size: cover;
+
+}
+.carousel-image-2{
+    background: url('../img/pexels-photo-2920064.jpeg');
+    background-size: cover;
+
+} 
+
+.carousel-image-3{
+    background: url('../img/pexels-photo-313779.jpeg');
+    background-size: cover;
+
+}
+#showcase .overlay{ 
+ background-color: rgb(0,0,0,0.9);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+min-height: 700px;
+
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+}
+.navbar .navbar-brand {
+   font-family: HemiHeadRg-BoldItalic;  
+}
+
+#footer{ 
+    background-color: #810000;
+}
+.indigo-text{ 
+ color: #810000 !important;
+}
